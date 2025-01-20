@@ -1,0 +1,37 @@
+.online-users {
+  width: 200px;
+  background-color: #f8f9fa;
+  border-left: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.online-users h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.user-status {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #28a745;
+}
+
+.user-item span {
+  font-size: 0.9rem;
+  color: #333;
+}
